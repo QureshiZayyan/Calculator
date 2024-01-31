@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(63, 61, 61);
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*.row {
+    margin: 15px;
+}
+
+*.btn {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 39px;
+    border: 2px solid red;
+    margin-right: 6px;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 23px;
+    text-align: center;
+    margin-left: -19px;
+}
+.cal{
+    margin-left: 15px;
+  width: 174px;
+  padding: 5.5px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+ul {
+    display: flex;
+    margin-left: 20px;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.signin {
+    color: black;
+    border-radius: 5px;
+}
