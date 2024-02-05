@@ -35,12 +35,13 @@ h3 {
     text-align: center;
     margin-left: -19px;
 }
-.cal{
+
+.cal {
     margin-left: 15px;
-  width: 174px;
-  padding: 5.5px;
-  border-radius: 4px;
-  text-align: center;
+    width: 174px;
+    padding: 5.5px;
+    border-radius: 4px;
+    text-align: center;
 }
 
 ul {
@@ -51,9 +52,4 @@ ul {
 li {
     list-style: none;
     margin-right: 20px;
-}
-
-.signin {
-    color: black;
-    border-radius: 5px;
 }
