@@ -22,6 +22,12 @@ Array.from(btn).forEach((button) => {
          string = 'undefined';
          cal.value = string;
       }
+
+      else if (string[0] == '+' || string[0] == '-' || string[0] == '*' || string[0] == '/') {
+         string = '';
+         cal.value = string;
+      }
+
       else {
          string = string + item.target.innerHTML;
          cal.value = string;
